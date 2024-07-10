@@ -12,7 +12,7 @@ const generic = {
   },
 
   getSequelize: (file) => {
-    const resolvePath = file ? path.join('sequelize', file) : 'sequelize';
+    const resolvePath = file ? path.join('sequelize', file) : 'sequelize4';
     const resolveOptions = { basedir: process.cwd() };
 
     let sequelizePath;
